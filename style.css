@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-nav{
+nav.main-nav{
 	background-color: black;
 	color: white;
 	padding: 2px;
@@ -11,12 +11,26 @@ nav{
 	padding: 5px;
 }
 
-nav ul li{
+nav.main-nav ul {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav.main-nav ul li{
 	color: white;
-	display: inline;
+	display: block;
 	margin-right: 10px;
 /*	padding-left:10px;*/
+  	float: left;
 }
+
+nav.main-nav ul li a{
+	display: block;
+  	padding: 8px;
+  	color: #ffffff;
+ }	
 
 a:link {
 	color: white;

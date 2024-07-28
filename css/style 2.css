@@ -1,0 +1,14 @@
+/*This is a comment.*/
+
+selector{
+	property:value;
+}
+
+h2{
+	background-color:blue;
+	color:red;
+}
+
+#kurt h2{
+	color:green;
+}
